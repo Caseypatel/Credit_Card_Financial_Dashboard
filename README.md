@@ -9,6 +9,7 @@
   - Successfully connected to a SQL Server database using ODBC connection to import large datasets into Power BI for analysis.
 
 **Project Insights(Success Citriea)- Week 53 (31st Dec)**
+
 Week Over Week (WoW) change:
   - Revenue increased by 28.8%,
   - Total Transaction Amt & Count increased by xx% & xx%
