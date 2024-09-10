@@ -11,23 +11,17 @@
 **Data Analysis Expressions(DAX)**:
 
 **1) Conducted an age-based segmentation analysis of credit card users to gain insights into the demographic characteristics of this consumer group.**
+```
 AgeGroup = SWITCH(
-
  TRUE(),
- 
  'public cust_detail'[customer_age] < 30, "20-30",
- 
  'public cust_detail'[customer_age] >= 30 && 'public cust_detail'[customer_age] < 40, "30-40",
- 
  'public cust_detail'[customer_age] >= 40 && 'public cust_detail'[customer_age] < 50, "40-50",
- 
  'public cust_detail'[customer_age] >= 50 && 'public cust_detail'[customer_age] < 60, "50-60",
- 
  'public cust_detail'[customer_age] >= 60, "60
- 
  "unknown"
- 
-)
+ )
+```
 
 **2).Developed and implemented an income-based segmentation model using the SWITCH function to categorize customers into three distinct groups: Low, Med, and High.**
 
